@@ -1,0 +1,20 @@
+label.form__input {
+    position: relative;
+    @include fFS(14px, 15px, 490px, 1920px, 15px);
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    border: 2px solid #3e9cdc;
+    @include bp(850px) {
+        margin-top: 1.5rem;
+    }
+}
+
+.icon__doc {
+    margin-right: 10px;
+    width: 0.85rem;
+    height: 1rem;
+}
+
+
+

@@ -1,0 +1,47 @@
+.header__content {
+    @include flex-jc;
+
+    @include bp(495px) {
+        justify-content: center;
+    }
+}
+
+.nav {
+    @include flex-jc;
+    font-size: 13px;
+    font-weight: 700;
+    @include bp(495px) {
+        width: 100%;
+    }
+}
+.nav__list {
+    white-space: nowrap;
+}
+
+.nav__list+.nav__list {
+    margin-left: 3rem;
+    @include bp(495px) {
+        margin-left: 0;
+    }
+}
+
+.header {
+    position: fixed;
+    color: $color-text-wt;
+    background-color: $bg-header;
+    width: 100%;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 1.7rem 0;
+
+    &__logo {
+        font-weight: 900;
+        @include fFS(16px, 28px, 490px, 1920px, 28px);
+
+        @include bp(495px) {
+            margin-bottom: 1.7rem;
+        }
+    }
+}

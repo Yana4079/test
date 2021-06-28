@@ -1,0 +1,43 @@
+.hero {
+    background-image: url(../../img/hero__bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 10.15rem 0;
+    color: $color-text-black;
+
+    &__title {
+        @include fFS(20px, 48px, 490px, 1920px, 20px);
+        text-transform: uppercase;
+        max-width: 39rem;
+        font-weight: 900;
+        line-height: 2.8rem;
+    }
+}
+
+.benefits {
+    &__title {
+        @include fFS(14px, 20px, 490px, 1920px, 20px);
+        font-weight: 700;
+        margin-bottom: 0.5rem;
+    }
+}
+
+
+.main {
+    background-image: url(../../img/main__bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 7.5rem 0;
+    color: $color-text-wt;
+
+    &__title {
+        @include fFS(20px, 36px, 490px, 1920px, 20px);
+        font-weight: 700;
+        margin-bottom: 1.5rem;
+    }
+    &__subtitle {
+        @include fFS(14px, 18px, 490px, 1920px, 18px);
+    }
+}

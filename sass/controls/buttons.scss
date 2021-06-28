@@ -1,0 +1,37 @@
+.btn {
+    @include fFS(9px, 13px, 400px, 1920px, 9px);
+    line-height: 1.23em;
+    background-color: $color-text-wt;
+    text-transform: uppercase;
+    border-radius: 4px;
+    border: 1px solid #6F6D7B;
+    color: #2A2B30;
+    padding: 0.75rem 1.55rem;
+}
+
+.btn+.btn {
+    margin-left: 1.5rem;
+}
+
+.btn:hover {
+    background-color: $color-hover;
+    color: $color-text-wt;
+    border-color: $color-text-wt;
+}
+
+.form__btn__content {
+    @include flex-center;
+}
+
+.form__button {
+    flex: 0 1 32%;
+    @include fFS(14px, 18px, 490px, 1920px, 18px);
+    padding: 0.6em 0.555em;
+    background-color: $color-hover;
+    border: 1px solid $color-text-wt;
+    border-radius: 4px;
+
+    @include bp(850px) {
+        flex: 0 1 100%;
+    }
+}
