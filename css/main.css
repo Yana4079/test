@@ -314,7 +314,7 @@ article ol {
     counter-increment: count; }
 
 [class*="icon-"] {
-  background-image: url(../../img/css_sprites.png);
+  background-image: url(../img/css_sprites.png);
   background-repeat: no-repeat;
   margin-right: 7px;
   margin-right: 0.5rem; }
@@ -571,7 +571,7 @@ img {
         margin-bottom: 1.7rem; } }
 
 .hero {
-  background-image: url(../../img/hero__bg.jpg);
+  background-image: url(../img/hero__bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -608,7 +608,7 @@ img {
       font-size: 20px; } }
 
 .main {
-  background-image: url(../../img/main__bg.jpg);
+  background-image: url(../img/main__bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -765,7 +765,7 @@ img {
 .benefits .benefits__content:nth-child(1) .benefits__content--icon:before {
   position: absolute;
   z-index: 1;
-  content: url("../../img/1.svg");
+  content: url("../img/1.svg");
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
@@ -774,7 +774,7 @@ img {
 .benefits .benefits__content:nth-child(2) .benefits__content--icon:before {
   position: absolute;
   z-index: 1;
-  content: url("../../img/2.svg");
+  content: url("../img/2.svg");
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
@@ -783,7 +783,7 @@ img {
 .benefits .benefits__content:nth-child(3) .benefits__content--icon:before {
   position: absolute;
   z-index: 1;
-  content: url("../../img/3.svg");
+  content: url("../img/3.svg");
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
@@ -792,7 +792,7 @@ img {
 .benefits .benefits__content:nth-child(4) .benefits__content--icon:before {
   position: absolute;
   z-index: 1;
-  content: url("../../img/4.svg");
+  content: url("../img/4.svg");
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
@@ -801,7 +801,7 @@ img {
 .benefits .benefits__content:nth-child(5) .benefits__content--icon:before {
   position: absolute;
   z-index: 1;
-  content: url("../../img/5.svg");
+  content: url("../img/5.svg");
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
